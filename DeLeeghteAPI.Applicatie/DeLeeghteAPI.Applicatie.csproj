@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DeLeeghteAPI.Domain\DeLeeghteAPI.Domain.csproj" />
+    <ProjectReference Include="..\DeLeeghteAPI.Shared\DeLeeghteAPI.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
